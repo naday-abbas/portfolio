@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#181614"/>
+      <stop offset="100%" stop-color="#0e0d0c"/>
+    </linearGradient>
+    <linearGradient id="pubg-banner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="40%" stop-color="#d97706"/>
+      <stop offset="80%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="url(#bg-grad)"/>
+
+  <!-- Header Bar -->
+  <rect width="1200" height="56" fill="#151312"/>
+  <!-- Logo Icon -->
+  <rect x="30" y="12" width="32" height="32" rx="6" fill="#ffffff"/>
+  <path d="M38 28 L46 18 L54 28 Z" fill="#181614"/>
+  <text x="72" y="34" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="800" letter-spacing="1">BEAST GAMES</text>
+
+  <text x="200" y="34" fill="#e4e4e7" font-family="system-ui, sans-serif" font-size="13">Home</text>
+  <text x="252" y="34" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="13">Discover</text>
+  <text x="320" y="34" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="13">Category ▾</text>
+  <text x="405" y="34" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="13">👤 Sign In</text>
+
+  <g transform="translate(960, 13)">
+    <rect width="160" height="30" rx="4" fill="#fffbeb" stroke="#d4d4d8" stroke-width="1"/>
+    <text x="10" y="20" fill="#71717a" font-family="system-ui, sans-serif" font-size="11">Search</text>
+    <rect x="168" width="50" height="30" rx="4" fill="#27272a"/>
+    <text x="178" y="19" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11">Search</text>
+  </g>
+
+  <!-- 3D Carousel Section -->
+  <!-- Left Side Slide (Fall Guys) -->
+  <g transform="translate(200, 110) skewY(5) scale(0.85)">
+    <rect width="180" height="270" rx="8" fill="#3b82f6" opacity="0.75"/>
+    <circle cx="90" cy="110" r="40" fill="#ec4899"/>
+    <text x="90" y="200" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="800">FALL GUYS</text>
+  </g>
+
+  <!-- Right Side Slide (Rocket League) -->
+  <g transform="translate(850, 110) skewY(-5) scale(0.85)">
+    <rect width="180" height="270" rx="8" fill="#1e40af" opacity="0.75"/>
+    <circle cx="90" cy="110" r="40" fill="#38bdf8"/>
+    <text x="90" y="200" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="800">ROCKET LEAGUE</text>
+  </g>
+
+  <!-- Center Active Slide: PUBG Mobile -->
+  <g transform="translate(320, 85)">
+    <rect width="560" height="310" rx="8" fill="url(#pubg-banner)" stroke="#52525b" stroke-width="1"/>
+    <!-- Squad silhouettes -->
+    <circle cx="280" cy="120" r="32" fill="#fef08a" opacity="0.9"/>
+    <path d="M260 160 L300 160 L290 220 L270 220 Z" fill="#18181b"/>
+    <circle cx="220" cy="130" r="24" fill="#fed7aa" opacity="0.7"/>
+    <circle cx="340" cy="130" r="24" fill="#fed7aa" opacity="0.7"/>
+    <!-- PUBG Logo -->
+    <rect x="180" y="200" width="200" height="44" rx="4" fill="#000000" opacity="0.6"/>
+    <text x="280" y="220" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="13" font-weight="900" letter-spacing="1">PLAYERUNKNOWN'S</text>
+    <text x="280" y="238" text-anchor="middle" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="18" font-weight="900" letter-spacing="2">BATTLEGROUNDS</text>
+    <text x="280" y="254" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="9" font-weight="700">MOBILE</text>
+    <text x="280" y="295" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="700">5</text>
+  </g>
+
+  <!-- Pagination Dots -->
+  <g transform="translate(565, 420)">
+    <circle cx="0" cy="0" r="3.5" fill="none" stroke="#a1a1aa" stroke-width="1.5"/>
+    <circle cx="18" cy="0" r="3.5" fill="none" stroke="#a1a1aa" stroke-width="1.5"/>
+    <circle cx="36" cy="0" r="3.5" fill="none" stroke="#a1a1aa" stroke-width="1.5"/>
+    <circle cx="54" cy="0" r="4" fill="#ffffff"/>
+    <circle cx="72" cy="0" r="3.5" fill="none" stroke="#a1a1aa" stroke-width="1.5"/>
+  </g>
+
+  <!-- Bottom Game Cards Row -->
+  <!-- 1: Fortnite -->
+  <g transform="translate(90, 460)">
+    <rect width="155" height="200" rx="6" fill="#3f6212"/>
+    <text x="77" y="60" text-anchor="middle" fill="#fef08a" font-family="system-ui, sans-serif" font-size="15" font-weight="900">FORTNITE</text>
+    <text x="77" y="80" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="800">BATTLE ROYALE</text>
+  </g>
+
+  <!-- 2: PUBG -->
+  <g transform="translate(265, 460)">
+    <rect width="155" height="200" rx="6" fill="#78350f"/>
+    <text x="77" y="70" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="13" font-weight="900">BATTLEGROUNDS</text>
+  </g>
+
+  <!-- 3: Rocket League -->
+  <g transform="translate(440, 460)">
+    <rect width="155" height="200" rx="6" fill="#1e3a8a"/>
+    <text x="77" y="60" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="900">ROCKET</text>
+    <text x="77" y="80" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="14" font-weight="900">LEAGUE</text>
+  </g>
+
+  <!-- 4: Among Us -->
+  <g transform="translate(615, 460)">
+    <rect width="155" height="200" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1"/>
+    <circle cx="77" cy="75" r="42" fill="#dc2626"/>
+    <ellipse cx="85" cy="65" rx="22" ry="14" fill="#93c5fd"/>
+    <text x="77" y="160" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="900">AMONG US</text>
+  </g>
+
+  <!-- 5: Valorant -->
+  <g transform="translate(790, 460)">
+    <rect width="155" height="200" rx="6" fill="#0284c7"/>
+    <text x="77" y="80" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="900">VALORANT</text>
+  </g>
+
+  <!-- 6: GTA V -->
+  <g transform="translate(965, 460)">
+    <rect width="155" height="200" rx="6" fill="#475569"/>
+    <text x="77" y="65" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="900">GRAND THEFT AUTO</text>
+    <text x="77" y="95" text-anchor="middle" fill="#22c55e" font-family="system-ui, sans-serif" font-size="26" font-weight="900">V</text>
+  </g>
+</svg>
